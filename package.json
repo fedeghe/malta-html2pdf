@@ -1,0 +1,23 @@
+{
+  "name": "malta-html2pdf",
+  "version": "1.0.0",
+  "description": "malta plugin to create pdf from an html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedeghe/malta-html2pdf.git"
+  },
+  "author": "Federico Ghedina <federico.ghedina@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fedeghe/malta-html2pdf/issues"
+  },
+  "homepage": "https://github.com/fedeghe/malta-html2pdf#readme",
+  "dependencies": {
+    "html-pdf": "^2.2.0",
+    "malta": "^3.8.12"
+  }
+}
