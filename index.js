@@ -2,8 +2,7 @@
  * load dependencies and whatever needed
  */
 var htmlpdf = require('html-pdf'),
-    path = require('path'),
-    fs = require('fs');
+    path = require('path');
 
 function malta_html2pdf(obj, options) {
     var self = this,
