@@ -1,6 +1,6 @@
 {
   "name": "malta-html2pdf",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "malta plugin to create pdf from an html",
   "main": "index.js",
   "scripts": {
