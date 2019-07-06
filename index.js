@@ -19,11 +19,11 @@ function malta_html2pdf(obj, options) {
             if (err == null) {
                 msg = 'plugin ' + pluginName.white() + ' wrote ' + obj.name + ' (' + self.getSize(obj.name) + ')';
             } else {
-                console.log('[ERROR] '.red() + pluginName + ' says:');
-                console.dir(err);
-                self.stop();
+                self.doErr(err, obj, pluginName);
             }
-            solve(obj);
+            err
+                ? reject(`Plugin ${pluginName} conversion error:\n${err}`)
+                : solve(obj);
             self.notifyAndUnlock(start, msg);
         });
     }
