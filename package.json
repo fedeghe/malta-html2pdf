@@ -18,6 +18,6 @@
     "homepage": "https://github.com/fedeghe/malta-html2pdf#readme",
     "dependencies": {
         "html-pdf": "^2.2.0",
-        "malta": "^3.8.14"
+        "malta": "^4.0.4"
     }
 }
