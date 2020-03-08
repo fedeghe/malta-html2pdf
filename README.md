@@ -1,6 +1,5 @@
 ---
 [![npm version](https://badge.fury.io/js/malta-html2pdf.svg)](http://badge.fury.io/js/malta-html2pdf)
-[![Dependencies](https://david-dm.org/fedeghe/malta-html2pdf.svg)](https://david-dm.org/fedeghe/malta-html2pdf)
 [![npm downloads](https://img.shields.io/npm/dt/malta-html2pdf.svg)](https://npmjs.org/package/malta-html2pdf)
 [![npm downloads](https://img.shields.io/npm/dm/malta-html2pdf.svg)](https://npmjs.org/package/malta-html2pdf)  
 ---  

@@ -1,21 +1,22 @@
 /**
  * load dependencies and whatever needed
  */
-var htmlpdf = require('html-pdf'),
+const htmlpdf = require('html-pdf'),
     path = require('path');
 
 function malta_html2pdf(obj, options) {
-    var self = this,
+    const self = this,
         start = new Date(),
-        msg,
         pluginName = path.basename(path.dirname(__filename));
+
+    let msg;
 
     options = options || {};
 
     obj.name = obj.name.replace(/\.html$/, '.pdf');
 
-    return function (solve, reject) {
-        htmlpdf.create(obj.content, options).toFile(obj.name, function (err, res) {
+    return (solve, reject) => {
+        htmlpdf.create(obj.content, options).toFile(obj.name, (err, res) => {
             if (err == null) {
                 msg = 'plugin ' + pluginName.white() + ' wrote ' + obj.name + ' (' + self.getSize(obj.name) + ')';
             } else {
